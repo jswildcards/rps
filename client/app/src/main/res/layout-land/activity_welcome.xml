@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_main_land"
+    tools:context=".WelcomeActivity"
+    android:id="@+id/welcomeActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/welcomePage"
+        android:onClick="welcomePageOnClick"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/bilbo"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textSize="80sp" />
+
+        <TextView
+            android:id="@+id/tapToStart"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:shadowColor="@color/text_shadow"
+            android:text="@string/tapToStart"
+            android:textColor="@color/text"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menuPage"
+        android:onClick="welcomePageOnClick"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:fontFamily="@font/bilbo"
+            android:text="@string/app_name"
+            android:textSize="80sp" />
+
+        <LinearLayout
+            android:id="@+id/menuBtns"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="100sp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnBattle"
+                android:text="@string/start"
+                android:onClick="btnBattleOnClick"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnStatistics"
+                android:text="@string/statistics"
+                android:onClick="btnStatisticsOnClick"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnSettings"
+                android:text="@string/settings"
+                android:onClick="btnSettingsOnClick"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnTutorial"
+                android:text="@string/tutorial"
+                android:onClick="btnTutorialOnClick"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnExit"
+                android:onClick="exit"
+                android:text="@string/exit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/settingsPage"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0"
+        android:orientation="horizontal"
+        android:padding="100sp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/settingsTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bilbo"
+                android:text="@string/app_name"
+                android:textSize="36sp" />
+
+            <EditText
+                android:id="@+id/etSettingsUsername"
+                android:hint="@string/username"
+                android:maxLength="16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp" />
+
+            <EditText
+                android:id="@+id/etSettingsDob"
+                android:hint="@string/dob"
+                android:onClick="etSettingsDobOnClick"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp" />
+
+            <EditText
+                android:id="@+id/etSettingsPhone"
+                android:hint="@string/phone"
+                android:inputType="number"
+                android:maxLength="8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp" />
+
+            <EditText
+                android:id="@+id/etSettingsEmail"
+                android:hint="@string/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/settingsBtns"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="30sp">
+
+            <Button
+                android:id="@+id/btnSettingsConfirm"
+                android:text="@string/ok"
+                android:layout_width="match_parent"
+                android:onClick="btnSettingsConfirmOnClick"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnSettingsClear"
+                android:text="@string/clear"
+                android:onClick="btnSettingsClearOnClick"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnSettingsBack"
+                android:text="@string/back"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

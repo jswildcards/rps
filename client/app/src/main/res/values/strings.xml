@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">RPS</string>
+
+    <string name="tapToStart">Tap To Start</string>
+
+    <string name="ok">OK!</string>
+    <string name="back">Back</string>
+    <string name="clear">Clear</string>
+
+    <string name="start">start</string>
+    <string name="statistics">statistics</string>
+    <string name="settings">settings</string>
+    <string name="exit">exit</string>
+
+    <string name="username">username</string>
+    <string name="dob">date of birth</string>
+    <string name="phone">phone</string>
+    <string name="email">email</string>
+
+    <string name="battle">BATTLE!</string>
+
+    <string name="battleName">Name: </string>
+    <string name="battleAge">Age: </string>
+
+    <string name="end">End!</string>
+
+    <string name="paper">Paper</string>
+    <string name="scissors">Scissors</string>
+    <string name="stone">Stone</string>
+
+    <string name="win">Win!</string>
+    <string name="lose">Lose!</string>
+    <string name="draw">Draw!</string>
+
+    <string name="Continue">Continue</string>
+    <string name="quit">quit</string>
+
+    <string name="gameNo">Game No.</string>
+    <string name="gamedate">Game Date</string>
+    <string name="gametime">Game Time</string>
+    <string name="opponentName">Opponent Name</string>
+    <string name="opponentAge">Opponent Age</string>
+    <string name="yourHand">Your Hand</string>
+    <string name="opponentHand">Opponent Hand</string>
+    <string name="result">Result</string>
+
+    <string name="needInternetAccessHeader">Oops!</string>
+    <string name="needInternetAccessMsg">
+        Internet access has been denied. Please check for you internet access.
+    </string>
+
+    <string name="loseTurn">You\'ve lost your turn…</string>
+
+    <string name="guideTitle">
+        Welcome to RPS!\nLearn how to play!
+    </string>
+
+    <string name="guide_1">
+        How to win\n\n
+        The rule is easy. Paper counters stone; Stone counters Scissors; and Scissors counters Paper.
+        You should guess what your opponent will choose, and you have to encounter it.
+    </string>
+
+    <string name="guide_2">
+        In the game\n\n
+        You will be randomly matched an opponent for you. You will see a timer after "Battle!" word
+        has been disappeared. You should choose a hand before the time runs up. After you choose a
+        hand, you wait for opponent decision and wait for result. You can take an overview by clicking
+        "statistics" button at menu page for your previous results.
+    </string>
+
+    <string name="guide_3">
+        Image Notation\n\n
+    </string>
+
+    <string name="player">Player</string>
+    <string name="opponent">Opponent</string>
+
+    <string name="oppo_thinking">Opponent Thinking</string>
+    <string name="oppo_waiting">Opponent Ready</string>
+
+    <string name="tutorial">tutorial</string>
+</resources>

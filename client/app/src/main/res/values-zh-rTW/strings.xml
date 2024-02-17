@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">包剪揼</string>
+
+    <string name="tapToStart">點擊開始</string>
+
+    <string name="ok">好的!</string>
+    <string name="back">返回</string>
+    <string name="clear">清除</string>
+
+    <string name="start">開始</string>
+    <string name="statistics">數據</string>
+    <string name="settings">設置</string>
+    <string name="exit">離開</string>
+
+    <string name="username">用戶名</string>
+    <string name="dob">生日</string>
+    <string name="phone">電話</string>
+    <string name="email">電郵</string>
+
+    <string name="battle">對陣!</string>
+
+    <string name="battleName">姓名: </string>
+    <string name="battleAge">年齡: </string>
+
+    <string name="end">完結!</string>
+
+    <string name="paper">包</string>
+    <string name="scissors">剪</string>
+    <string name="stone">揼</string>
+
+    <string name="win">贏了!</string>
+    <string name="lose">輸了!</string>
+    <string name="draw">打和!</string>
+
+    <string name="Continue">繼續</string>
+    <string name="quit">離開</string>
+
+    <string name="gameNo">游戲序號</string>
+    <string name="gamedate">游戲日期</string>
+    <string name="gametime">游戲時間</string>
+    <string name="opponentName">對手名稱</string>
+    <string name="opponentAge">對手年齡</string>
+    <string name="yourHand">你的手勢</string>
+    <string name="opponentHand">對手手勢</string>
+    <string name="result">結果</string>
+
+    <string name="needInternetAccessHeader">糟糕!</string>
+    <string name="needInternetAccessMsg">
+        您的網絡好像已被限制了！請檢查您的網絡，然後再試一次。
+    </string>
+
+    <string name="loseTurn">你錯過了自己的回合…</string>
+
+    <string name="guideTitle">
+        歡迎來到包剪揼！\n這裏是新手教程！
+    </string>
+
+    <string name="guide_1">
+        如何贏\n\n
+        規則非常簡單。包剋制剪；剪剋制揼；揼剋制包。你需要猜測對手會出什麽，並加以剋制。
+    </string>
+
+    <string name="guide_2">
+        在游戲裏\n\n
+        你會被隨機抽取一名對手進行游戲。當“對陣”字眼消失后，你會看見一個秒錶。你需要在時間完結之前選擇一個手勢。
+        當你選擇完一個手勢，你需要等到對手的決定並等待結果。你可以回到主頁並選擇“數據”按鈕去查看過往結果。
+    </string>
+
+    <string name="guide_3">
+        圖像指示\n\n
+    </string>
+
+    <string name="player">玩家</string>
+    <string name="opponent">對家</string>
+
+    <string name="oppo_thinking">對家正在選擇</string>
+    <string name="oppo_waiting">對家已經選擇完成</string>
+
+    <string name="tutorial">教程</string>
+</resources>
